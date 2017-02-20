@@ -14,12 +14,16 @@ public class CannonBallController : MonoBehaviour {
 	private GameController controller;
 	private Vector2[] groundVertices;
 	private Vector2[,] mountainVertices;
+	private Vector3	lastGoodPosition;
 	// Use this for initialization
 	void Start () {
 
 		controller = (GameController) GameObject.Find ("Game Controller").GetComponent<GameController> ();
 
 		groundVertices = GameObject.Find ("Ground").GetComponent<GroundController> ().GetVertices ();
+
+		// save the position so that we can move back here if there is an issue with collision
+		lastGoodPosition = transform.position;
 
 //		print (transform.eulerAngles.z);
 		DrawCannonBall(radius);
@@ -202,6 +206,20 @@ public class CannonBallController : MonoBehaviour {
 			test [1] = mountainCollider [i, 1];
 			test [2] = mountainCollider [i, 2];
 			if (GTK (test)) {
+
+				// find the vector pointing from this current position to the last known
+				// non-collision position
+				Vector3 movementVector = lastGoodPosition - transform.position;
+				// get the unit vector
+				movementVector /= movementVector.magnitude;
+
+				// move the ball back an incremental amount in comparison to the radius
+				transform.Translate(movementVector * radius * 0.1f,Space.World);
+
+				while (GTK (test)) {
+					// keep doing so until there is no longer a collision
+					transform.Translate(movementVector * radius * 0.1f,Space.World);
+				}
 				
 				// get the norm of the surface
 				Vector2 temp = test[1] - test[0];
@@ -221,6 +239,8 @@ public class CannonBallController : MonoBehaviour {
 			}
 		}
 
+		// there was no collision so this was a good position
+		lastGoodPosition = transform.position;
 
 		return false;
 	}

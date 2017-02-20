@@ -46,8 +46,8 @@ public class GameController : MonoBehaviour {
 
 	// allow the projectiles to determine how far they should move this next update
 	public float GetWindSpeed() {
-		return windVelocity;
-//		return windMax;
+//		return windVelocity;
+		return windMax;
 	}
 //
 	// modify the wind's velocity based on a random value in the range of [-max,max]
