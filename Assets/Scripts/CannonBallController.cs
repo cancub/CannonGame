@@ -20,12 +20,13 @@ public class CannonBallController : MonoBehaviour {
 		controller = (GameController) GameObject.Find ("Game Controller").GetComponent<GameController> ();
 
 		groundVertices = GameObject.Find ("Ground").GetComponent<GroundController> ().GetVertices ();
-//		mountainVertices = GameObject.Find ("Mountain").GetComponent<MountainGenerator> ().GetVertices ();
 
 //		print (transform.eulerAngles.z);
 		DrawCannonBall(radius);
 		float angle_deg;
 		float angle_rad;
+
+		mountainVertices = GameObject.Find ("Mountain").GetComponent<MountainGenerator> ().GetVertices ();
 
 		if (transform.position.x > 0) {
 			// the goat cannon fired this
@@ -47,11 +48,9 @@ public class CannonBallController : MonoBehaviour {
 
 		if (GTK (groundVertices)) {
 			Destroy (gameObject);
-		} 
-
-//		else {
-//			GTK (mountainVertices);
-//		}
+		} else {
+			GTK (mountainVertices);
+		}
 
 //		foreach (Vector2[]
 

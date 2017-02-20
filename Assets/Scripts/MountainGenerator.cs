@@ -290,20 +290,23 @@ public class MountainGenerator : MonoBehaviour {
 		ret[j,2] = new Vector2(0,leftMount.surfaceVertices[0].y - 0.3f);
 
 		j++;
+		Vector2 test;
 
 		// now work our way from the top town 
-		for(int i  = 1; i < leftMount.surfaceVertices.Count; i++) {
+		for(int i  = 0; i < leftMount.surfaceVertices.Count-1; i++) {
 
 			// keep a clockwise fashion for the surface vertices
 			ret[j,0] = leftMount.surfaceVertices[i+1];
 			ret[j,1] = leftMount.surfaceVertices[i];
 			// just get a midpoint slightly behind the surface at the midpoint
+			test = ret[j,0] + ret[j,1];
 			ret[j,2] = (ret[j,0] + ret[j,1])/2 + Vector2.right * 0.3f;
 			j++;
 
 			// keep a clockwise fashion for the surface vertices
-			ret[j,0] = leftMount.surfaceVertices[i];
-			ret[j,1] = leftMount.surfaceVertices[i+1];
+			ret[j,0] = rightMount.surfaceVertices[i];
+			ret[j,1] = rightMount.surfaceVertices[i+1];
+			test = ret[j,0] + ret[j,1];
 			// just get a midpoint slightly behind the surface at the midpoint
 			ret[j,2] = (ret[j,0] + ret[j,1])/2 + Vector2.left* 0.3f;
 			j++;
