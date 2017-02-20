@@ -151,26 +151,17 @@ public class CannonBallController : MonoBehaviour {
 		// take as the start direction the vector between the midpoints
 		Vector2 d = (Vector2)ballVerts[0] - GetCenter(collider);
 
-//		print ("starting direct/ion: " + d);
-
 		// add the first point to the simplex that is the furthest point in the MD along d
 		simplex.Add(support(ballVerts,collider,d));
 
-//		print ("starting point: " + simplex [0]);
-
 		// for the next point (in the loop), we want to check in the opposite direction
 		d *= -1;
-
-//		print ("next direction: " + d);
-//
-//		print ("starting");
 
 		// begin the algorithm
 		while (true) {
 			// we haven't determined if the origin is in the MD, so get the next point 
 			// for the simplex
 			simplex.Add(support(ballVerts,collider,d));
-//			print ("next point: " + simplex [simplex.Count - 1]);
 
 			// check to see if this last point added to the simplex was indeed past the origin
 			if (Vector2.Dot (simplex [simplex.Count - 1], d) <= 0) {
@@ -178,14 +169,12 @@ public class CannonBallController : MonoBehaviour {
 				// this point is on the surface of the MD and thus the MD does not
 				// contain the origin
 
-//				print ("origin beyond this last point");
 				// may need to check the case of == 0 where the origin lies on the line
 
 				return false;
 			} else {
 				// keep moving to determine if the simplex contains the origin or if we 
 				// need to do more work
-//				print ("checking");
 				// check if the origin is contained by the simplex
 				if (ContainsOrigin(ref simplex,ref d)) {
 					// there was a collision
@@ -208,11 +197,28 @@ public class CannonBallController : MonoBehaviour {
 		 * mountain if we are at the bottom. Once we figure out a collision has occured, create a bounce 
 		 */
 		Vector2[] test = new Vector2[3];
-		test [0] = mountainCollider [0, 0];
-		test [1] = mountainCollider [0, 1];
-		test [2] = mountainCollider [0, 1];
-		if (GTK (test)) {
-			Destroy (gameObject);
+		for (int i = 0; i < mountainCollider.GetLength (0); i++) {
+			test [0] = mountainCollider [i, 0];
+			test [1] = mountainCollider [i, 1];
+			test [2] = mountainCollider [i, 2];
+			if (GTK (test)) {
+				
+				// get the norm of the surface
+				Vector2 temp = test[1] - test[0];
+				Vector2 norm = new Vector2 (-temp.y, temp.x) / temp.magnitude;
+
+				// get the directional vector for the ball
+				Vector2 velocity = horizontalMovement + verticalMovement;
+
+				// now use the norm to reflect the direction and take something off of the speed
+				velocity = restitution * (-2f * (Vector2.Dot(velocity,norm)*norm) + velocity);
+
+				horizontalMovement.x = velocity.x;
+				verticalMovement.y = velocity.y;
+
+//				Destroy (gameObject);
+				break;
+			}
 		}
 
 
