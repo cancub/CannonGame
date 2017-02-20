@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CannonController.cs">
+    <Files>
+      <File FileName="Assets\Scripts\CannonController.cs" Line="114" Column="3" />
+      <File FileName="Assets\Scripts\GameController.cs" Line="17" Column="6" />
+      <File FileName="Assets\Scripts\MountainGenerator.cs" Line="32" Column="20" />
+      <File FileName="Assets\Scripts\GroundController.cs" Line="22" Column="40" />
+      <File FileName="..\Maze Shooter\Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="121" Column="116" />
+      <File FileName="Assets\Scripts\CannonBallController.cs" Line="41" Column="44" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
