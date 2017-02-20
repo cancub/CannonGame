@@ -20,7 +20,7 @@ public class CannonBallController : MonoBehaviour {
 		controller = (GameController) GameObject.Find ("Game Controller").GetComponent<GameController> ();
 
 		groundVertices = GameObject.Find ("Ground").GetComponent<GroundController> ().GetVertices ();
-		mountainVertices = GameObject.Find ("Mountain").GetComponent<MountainGenerator> ().GetVertices ();
+//		mountainVertices = GameObject.Find ("Mountain").GetComponent<MountainGenerator> ().GetVertices ();
 
 //		print (transform.eulerAngles.z);
 		DrawCannonBall(radius);
@@ -47,9 +47,11 @@ public class CannonBallController : MonoBehaviour {
 
 		if (GTK (groundVertices)) {
 			Destroy (gameObject);
-		} else {
-			GTK (mountainVertices);
-		}
+		} 
+
+//		else {
+//			GTK (mountainVertices);
+//		}
 
 //		foreach (Vector2[]
 
