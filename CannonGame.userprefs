@@ -1,0 +1,42 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GoatController.cs">
+    <Files>
+      <File FileName="Assets\Scripts\CannonBallController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MountainGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GroundController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CannonController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GoatController.cs" Line="6" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>this.m_x[0].x</Value>
+          <Value>this.m_x[0].y</Value>
+          <Value>this.m_x[1].x</Value>
+          <Value>this.m_x[1].y</Value>
+          <Value>this.m_x[2].x</Value>
+          <Value>this.m_x[2].y</Value>
+          <Value>this.m_oldx[0].x</Value>
+          <Value>this.m_oldx[0].y</Value>
+          <Value>this.m_oldx[1].x</Value>
+          <Value>this.m_oldx[1].y</Value>
+          <Value>this.m_oldx[2].x</Value>
+          <Value>this.m_oldx[2].y</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Assets\Scripts\GoatController.cs" line="45" column="1" />
+      <Breakpoint file="C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Assets\Scripts\GoatController.cs" line="105" column="1" />
+      <Breakpoint file="C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Assets\Scripts\GoatController.cs" line="130" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Assets\Scripts\CannonBallController.cs" line="216" offsetX="780" offsetY="3346" expression="horizontalMovement" liveUpdate="False" />
+    <Watch file="Assets\Scripts\CannonBallController.cs" line="217" offsetX="823" offsetY="3426" expression="verticalMovement" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

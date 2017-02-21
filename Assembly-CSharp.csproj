@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\CannonBallController.cs" />
      <Compile Include="Assets\Scripts\CannonController.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\GoatController.cs" />
      <Compile Include="Assets\Scripts\GroundController.cs" />
      <Compile Include="Assets\Scripts\MountainGenerator.cs" />
  <Reference Include="UnityEngine.UI">
