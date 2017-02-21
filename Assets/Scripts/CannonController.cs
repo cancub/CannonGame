@@ -119,7 +119,10 @@ public class CannonController : MonoBehaviour {
 
 		barrel.transform.Rotate (Vector3.back*multiple*45);
 
-		cannonBallSpawn.transform.Rotate (Vector3.forward * multiple * 45);
+		// rotate the spawn point back for the cannonball (the goat is doing its own thing)
+		if (isBallCannon) {
+			cannonBallSpawn.transform.Rotate (Vector3.forward * multiple * 45);
+		}
 
 
 

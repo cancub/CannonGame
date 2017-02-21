@@ -1,0 +1,705 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) R9 380 Series (ID=0x6938)
+    Vendor:   ATI
+    VRAM:     3072 MB
+    Driver:   21.19.137.514
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Builds\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Builds\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Builds\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Builds\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Builds\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Builds\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Builds\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Builds\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Builds\test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Builds\test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Builds\test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Builds\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.109 seconds
+Platform assembly: C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Builds\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Max Ashurst\Documents\Unity\Project 2\CannonGame\Builds\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 59Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.583993 ms
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material:Internal_CreateWithShader (UnityEngine.Material,UnityEngine.Shader)
+  at UnityEngine.Material..ctor (UnityEngine.Shader shader) [0x00000] in <filename unknown>:0 
+  at GoatController.DrawGoat () [0x00000] in <filename unknown>:0 
+  at GoatController.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GoatController.DrawLines () [0x00000] in <filename unknown>:0 
+  at GoatController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2ed4 -> priority: 1 

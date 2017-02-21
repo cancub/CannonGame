@@ -32,19 +32,11 @@ public class CannonBallController : MonoBehaviour {
 
 		mountainVertices = GameObject.Find ("Mountain").GetComponent<MountainGenerator> ().GetVertices ();
 
-		if (transform.position.x > 0) {
-			// the goat cannon fired this
-			angle_deg = ((45-transform.eulerAngles.z) % 360f);
-			angle_rad = angle_deg*Mathf.PI / 180;
-			horizontalMovement = Vector3.left * initialSpeed *Mathf.Cos(angle_rad);
-			verticalMovement = Vector3.up * initialSpeed *Mathf.Sin(angle_rad);
-		} else {
-			// the cannon ball cannon fired this
-			angle_deg = ((transform.eulerAngles.z+45) % 360f);
-			angle_rad = angle_deg*Mathf.PI / 180;
-			horizontalMovement = Vector3.right * initialSpeed *Mathf.Cos(angle_rad);
-			verticalMovement = Vector3.up * initialSpeed *Mathf.Sin(angle_rad);
-		}
+		// the cannon ball cannon fired this
+		angle_deg = ((transform.eulerAngles.z+45) % 360f);
+		angle_rad = angle_deg*Mathf.PI / 180;
+		horizontalMovement = Vector3.right * initialSpeed *Mathf.Cos(angle_rad);
+		verticalMovement = Vector3.up * initialSpeed *Mathf.Sin(angle_rad);
 	}
 
 	// Update is called once per frame
